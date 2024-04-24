@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Module for rotating a 2D matrix."""
-  
+
 
 def rotate_2d_matrix(matrix):
     """Rotate an m by n 2D matrix in place."""
@@ -25,4 +25,3 @@ def rotate_2d_matrix(matrix):
         if c == cols - 1 and r >= -1:
             matrix.pop(r)
         r -= 1
-
